@@ -1,0 +1,42 @@
+@media (prefers-color-scheme: dark) {
+
+    :root {
+        /* Funciona como o HTML, mas é mais abrangente, funcionando em casos como SVG e XML */
+        --borda: 4px solid lightblue;
+        --fundo: #222;
+        --text-1: #eee;
+        --text-2: #bbb;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+
+    :root {
+        /* Funciona como o HTML, mas é mais abrangente, funcionando em casos como SVG e XML */
+        --borda: 4px solid blue;
+        --fundo: #fff;
+        --text-1: #111;
+        --text-2: #444;
+    }
+}
+
+html {
+    --fundo: #f4f4f4;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    background: var(--fundo);
+}
+
+h1 {
+    color: var(--text-1);
+}
+
+p {
+    padding-left: 10px;
+    border-left: var(--borda);
+    color: var(--text-2);
+}

@@ -1,0 +1,18 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));   /*semelhante a (2, 1fr) ou (1fr, 1fr) ou (auto-fit, 300px)*/
+    gap: 1rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.galeria {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}

@@ -1,0 +1,49 @@
+[required] {
+    border: 2px solid tomato;
+}
+
+/*[href="#contato"] {
+    border: 2px solid blue;
+}*/
+
+
+[href^="#"] {
+    background: lightcoral;
+    /*^ que se inicia com o que se deseja*/
+}
+
+[href$=".com"] {
+    background: lightcyan;
+    /*Que termina com o que deseja (.com)*/
+}
+
+
+section > h2 {   /* Seleciona o seletor que seja apenas filho direto da section */
+    color: red;
+}
+
+article {
+    background: lightgreen;
+    padding: 10px;
+}
+
+
+/*
+p {
+    margin-bottom: 20px;
+}
+
+
+article p:last-child {
+    margin-bottom: 0px;
+}
+*/
+
+p + p {   /* Seleciona elementos p após um outro p... nesse caso, nõa seleciona o primerio p */
+    margin-top: 20px;
+}
+
+
+* {   /* Seleciona todos os elementos da tela */
+    border: 2px solid blue;
+}

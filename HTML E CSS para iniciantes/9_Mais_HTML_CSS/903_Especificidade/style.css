@@ -1,0 +1,27 @@
+body {
+    font-size: 2rem;
+}
+
+.titulo.teste {   /* Mais especifico */
+    color: blue;
+}
+
+.titulo {
+    color: tomato;
+    padding: 10px;
+}
+
+#produtos {
+    color: lightgreen;
+}
+
+
+html body section h2 {
+    border-left: 8px solid lightblue;
+}
+
+
+
+h2 {
+    color: red !important;   /* !important fica sobre tudo */
+}
