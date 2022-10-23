@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+
+.conteudo {
+    border: 1px solid red;
+    padding: 40px;
+    display: grid;
+    justify-content: space-around;
+}
+
+.conteudo div {
+    display: grid;
+    justify-content: space-around;
+    padding: 20px;
+}

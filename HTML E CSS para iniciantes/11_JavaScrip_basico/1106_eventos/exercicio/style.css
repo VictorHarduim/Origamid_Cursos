@@ -1,0 +1,12 @@
+html {
+    cursor: none;
+}
+
+div {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #999;
+    border: 2px solid red;
+    position: absolute;
+}
