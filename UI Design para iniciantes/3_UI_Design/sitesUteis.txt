@@ -1,0 +1,16 @@
+// Cores:
+color.adobe.com/pt/create/color-wheel
+color hunt
+Dribble
+
+// Tipografia & icones:
+google fonts
+
+// Imagens:
+unsplash
+
+// Exemplos para design:
+typewolf
+
+// Reduzir tamanho de imagem
+squoosh
